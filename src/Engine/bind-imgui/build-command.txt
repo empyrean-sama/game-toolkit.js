@@ -1,0 +1,1 @@
+emcc -lembind -s ENVIRONMENT=web -s SINGLE_FILE=1 -s MODULARIZE -s EXPORT_NAME=BindImgui bind-imgui.cpp -o bind-imgui.js ../Vendor/imgui/imgui_demo.cpp ../Vendor/imgui/imgui_draw.cpp ../Vendor/imgui/imgui_tables.cpp ../Vendor/imgui/imgui_widgets.cpp ../Vendor/imgui/imgui.cpp --emit-tsd interface.d.ts -I ../Vendor/imgui 

@@ -90,3 +90,6 @@ typings/
 
 # Electron-Forge
 out/
+
+# Compiler Path Settings
+.vscode/c_cpp_properties.json
